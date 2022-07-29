@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #999;
+    font-size: 17px;
+}
+
+img{
+    width: 22px;
+    position: relative;
+    left: -20px;
+}
+
+/* main */
+main{
+    background-color: #fff;
+    max-width: 50%;
+    /* height: 20em; */
+    margin: 30px auto;
+    padding-top: 30px;
+    line-height: 4em;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.signUp-wrap > button,
+.signIn > button{
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    height: 3em;
+    border: solid 2px #000;
+    border-radius: 20px;
+    font-size: 20px;
+}
+button:hover, a:hover{
+    opacity: 0.7;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+.forgetBtn,
+.signIn > button{
+    background-color: #fff;
+    font-weight: bolder;
+}
+.signUp-wrap > .next{
+    font-weight: bolder;
+    color: #fff;
+    background-color: #000;
+}
+input{
+    width: 60%;
+    height: 3em;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: #ff0000;
+}
